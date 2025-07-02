@@ -4,6 +4,9 @@ Testing Compilers with C++ Programs based on Scope-level Mutation
 ## Parameters
 ```java -jar ScopeFuzz.jar --help```
 
+## Source code
+See the code files in ```source/main``` directory.
+
 ## Grammar files
 See the grammar files in ```grammar``` directory, ```CPlusLexer.g4``` and ```CPlusParser.g4```. You can alter the content of this grammar, but to ensure that the generated programs are legal, you may need to pay particular attention to potential issues arising from the incorporation of grammar related to scopes and identifiers.
 
