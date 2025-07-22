@@ -1,7 +1,7 @@
 # SCOPE++
 Efficient Scope-aware Mutation for Generating Valid C++ Programs
 
-##SCOPE++.jar Usage Instructions
+## SCOPE++.jar Usage Instructions
 
 ### Help Command
 ```java -jar SCOPE++.jar --help```
