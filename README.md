@@ -7,8 +7,8 @@ Efficient Scope-aware Mutation for Generating Valid C++ Programs
 ```java -jar SCOPE++.jar --help```
 
 ### Example Command
-```java -jar SCOPE++.jar \
-  --generateNum 10 \
+```java -jar SCOPE++.jar 
+  --generateNum 10 
   --mutationStrategy main-mutation```
   
 ### Source code
