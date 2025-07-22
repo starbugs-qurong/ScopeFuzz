@@ -23,7 +23,7 @@ Run ScopeFuzz.jar "```java -jar ScopeFuzz.jar --generateNum 10```". 10 of c++ te
 
 
 ## Source Code Usage Instructions
-The main function is located in this file: ```src/main/java/anonymous/ac/grand/gui/MainClassForGeneration.java```. If you run it will generate 10 C++ mutated programs in ```generate-output``` directory. You can change the number of generated programs by this variable ```generateNum```.
+The main function is located in this file: ```src/main/java/anonymous/ac/grand/gui/MainClassForGeneration.java```. If you run this file it will generate 10 C++ mutated programs in ```generate-output``` directory. You can change the number of generated programs by this variable ```generateNum```.
 
 
 ## Source C++ Programs Updating
