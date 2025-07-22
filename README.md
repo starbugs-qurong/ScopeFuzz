@@ -3,9 +3,14 @@ Efficient Scope-aware Mutation for Generating Valid C++ Programs
 
 ##SCOPE++.jar Usage Instructions
 
-### Parameters
+### Help Command
 ```java -jar SCOPE++.jar --help```
 
+### Example Command
+```java -jar SCOPE++.jar \
+  --generateNum 10 \
+  --mutationStrategy main-mutation```
+  
 ### Source code
 See the code files in ```src/main``` directory.
 
