@@ -22,10 +22,9 @@ See the C/C++ files in ```source``` directory, ```zero-init1.C```, ```Wzero-as-n
 Run ScopeFuzz.jar "```java -jar ScopeFuzz.jar --generateNum 10```". 10 of c++ test programs will be generated in this directory: ```generate-output/XXXX-XX-XX/build/cprogram```. 
 
 
-
-##Source Code Usage Instructions
+## Source Code Usage Instructions
 The main function is located in this file: ```src/main/java/anonymous/ac/grand/gui/MainClassForGeneration.java```. If you run it will generate 10 C++ mutated programs in ```generate-output``` directory. You can change the number of generated programs by this variable ```generateNum```.
 
 
-##Source C++ Programs Updating
+## Source C++ Programs Updating
 If you want update the source C++ programs for mutation, you can insert C++ programs into directory ```source```, and then rerun this java file  ```src/main/java/anonymous/ac/grand/main/mutation/BraceMatcher.java``` .
